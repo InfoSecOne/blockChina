@@ -1,0 +1,9 @@
+
+iptables -A INPUT -s 123.59.0.0/16 -j DROP
+iptables -A INPUT -s 182.74.167.32/27 -j DROP
+iptables -A INPUT -s 183.0.0.0/10 -j DROP
+iptables -A INPUT -s 221.224.0.0/13 -j DROP
+iptables -A INPUT -s 222.184.0.0/13 -j DROP
+iptables -A INPUT -s 58.208.0.0/12 -j DROP
+iptables -A INPUT -s 58.208.0.0/12 -j DROP
+iptables -A INPUT -s 86.105.195.0/24 -j DROP
